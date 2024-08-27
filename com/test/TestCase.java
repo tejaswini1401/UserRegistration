@@ -36,4 +36,11 @@ class TestCase {
 		assertTrue(result);
 		System.out.println("Valid Mobile Number");
 	}
+	@Test
+	void testPassword() {
+		UserRegistration obj = new UserRegistration();
+		boolean result = obj.validPassword("tejaswini");
+		assertTrue(result);
+		System.out.println("Valid Password");
+	}
 }
