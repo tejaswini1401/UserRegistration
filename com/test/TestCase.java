@@ -18,9 +18,15 @@ class TestCase {
 	@Test
 	void testLastName() {
 		UserRegistration obj = new UserRegistration();
-		boolean result = obj.validFirstName("Shelake");
+		boolean result = obj.validLastName("Shelake");
 		assertTrue(result);
 		System.out.println("Valid LastName");
 	}
-
+	@Test
+	void testEmailId() {
+		UserRegistration obj = new UserRegistration();
+		boolean result = obj.validEmailId("teja.shelake@abc.co.in");
+		assertTrue(result);
+		System.out.println("Valid EmailId");
+	}
 }
