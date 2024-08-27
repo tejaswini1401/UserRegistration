@@ -15,5 +15,12 @@ class TestCase {
 		assertTrue(result);
 		System.out.println("Valid username");
 	}
+	@Test
+	void testLastName() {
+		UserRegistration obj = new UserRegistration();
+		boolean result = obj.validFirstName("Shelake");
+		assertTrue(result);
+		System.out.println("Valid LastName");
+	}
 
 }
