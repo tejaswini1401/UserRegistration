@@ -16,6 +16,6 @@ public class UserRegistration {
 		return Pattern.matches("^\\d{2} \\d{10}",  mobileNumber);
 	}
 	public boolean validPassword(String mobileNumber) {
-		return Pattern.matches("^[a-z]{8,}",  mobileNumber);
+		return Pattern.matches("^[A-Za-z]{8,}",  mobileNumber);
 	}
 }
