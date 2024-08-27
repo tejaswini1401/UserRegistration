@@ -39,7 +39,7 @@ class TestCase {
 	@Test
 	void testPassword() {
 		UserRegistration obj = new UserRegistration();
-		boolean result = obj.validPassword("Tejaswini");
+		boolean result = obj.validPassword("Tejaswini14");
 		assertTrue(result);
 		System.out.println("Valid Password");
 	}
