@@ -12,4 +12,7 @@ public class UserRegistration {
 	public boolean validEmailId(String emailId) {
 		return Pattern.matches("^[a-z0-9.]{3,}@[a-z.]{2,}", emailId);
 	}
+	public boolean validMobileNumber(String mobileNumber) {
+		return Pattern.matches("^\\d{2} \\d{10}",  mobileNumber);
+	}
 }

@@ -29,4 +29,11 @@ class TestCase {
 		assertTrue(result);
 		System.out.println("Valid EmailId");
 	}
+	@Test
+	void testMobileNumber() {
+		UserRegistration obj = new UserRegistration();
+		boolean result = obj.validMobileNumber("91 9028737812");
+		assertTrue(result);
+		System.out.println("Valid Mobile Number");
+	}
 }
